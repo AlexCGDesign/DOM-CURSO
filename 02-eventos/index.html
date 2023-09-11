@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+    <main class="wrapper" data-id="wrapper">
+
+        <h1>¡Bienvenido 👋, 
+            <span data-id="name">Usuario</span>
+            !
+        </h1>
+
+        <form action="/verificacion.php">
+            <input type="text" placeholder="Ingresa tu nombre">
+            <input type="submit">
+        </form>
+
+    </main>
+
+    <!-- click -->
+
+    <section class="section">
+
+       <button class="button-color" data-color="darkgreen">Cambia a color verde</button>
+
+       <button class="button-color" data-color="hotpink">Cambia a color rosa</button>
+       
+       <button class="button-color" data-color="steelblue">Cambia a color azul</button>
+
+    </section>
+
+
+   <script src="./app.js"></script>
+</body>
+</html>

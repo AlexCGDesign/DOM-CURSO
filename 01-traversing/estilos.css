@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 3rem 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.link{
+    background-color: rebeccapurple;
+    color: white;
+    display: block;
+    width: max-content;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+form{
+    margin-top: 3rem;
+}
+
+img{
+    width: 100%;
+}
